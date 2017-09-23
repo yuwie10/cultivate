@@ -1,0 +1,14 @@
+Example emails scored as POSITIVE sentiment
+
+Sentiment score: 0.546
+Email: Congratulations on your expanded role. I hope this means you get lots more money and fewer hours!
+
+Sentiment score: 0.6369
+Email: would love to discuss per my voicemail
+
+Sentiment score: 0.7506
+Email: Hot like wasabi when I bust rhymes Big like Leann Rimes Because I'm all about value
+
+Sentiment score: 0.9118
+Email: Beth, Here are our addresses for DSL lines: Hunter Shively 10545 Gawain Houston, TX 77024 713 461-4130 Phillip Allen 8855 Merlin Ct Houston, TX 77055 713 463-8626 Mike Grigsby 6201 Meadow Lake Houston, TX 77057 713 780-1022 Thanks Phillip
+

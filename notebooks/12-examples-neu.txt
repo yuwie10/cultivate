@@ -1,0 +1,14 @@
+Example emails scored as NEUTRAL sentiment:
+
+Sentiment score: 0.0
+Email: Here is our forecast
+
+Sentiment score: 0.0
+Email: Mark, Were you able to log in to enron online and find socal today? I will follow up with a list of our physical deals done yesterday and today. Phillip
+
+Sentiment score: 0.0
+Email: 11:15 today still works.
+
+Sentiment score: 0.0
+Email: Michael, here is my second report. The password is red. tks Robert
+
