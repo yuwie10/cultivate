@@ -48,7 +48,7 @@ Below are example messages scored as positive (`compound > 0.5`), neutral (`-0.5
 
 <img src='images/neg.png' width='500' height='230'>
 
-We can see that `VADER` generally correctly scored the sentiment polarity of email messages, though there are some surprising mistakes, such as `no problem` being scored as negative. Overall, on the Enron dataset, `VADER` performed best on neutral emails. Note that the thresholds for determining positive, neutral and negative emails are somewhat arbitrary. For the examples above I used cutoffs that are common in the literature when performing sentiment analysis, but for actual analysis thresholds should be determined based on the client's data. For example, below is the distribution of sentiment scores in the Enron dataset:
+We can see that `VADER` generally correctly scored the polarity of email message sentiment, though there are some surprising mistakes, such as `no problem` being scored as negative. Overall, on the Enron dataset, `VADER` performed best on neutral emails. Note that the thresholds for determining positive, neutral and negative emails are somewhat arbitrary. For the examples above I used cutoffs that are common in the literature when performing sentiment analysis, but for actual analysis thresholds should be determined based on the client's data. For example, below is the distribution of sentiment scores in the Enron dataset:
 
 <img src='images/sentiments.png'>
 
