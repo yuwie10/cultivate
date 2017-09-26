@@ -138,4 +138,4 @@ Similarly, the types of emails being sent by a team or individual can be visuali
 
 <img src='images/tsne-indiv.png' width='750' height='700'>
 
-[internal link](#Sentiments-per-cluster)
+[internal link](#sentiments-per-cluster)
