@@ -41,11 +41,11 @@ I used the Python package `VADER` (Valence Aware Dictionary and sEntiment Reason
 
 Below are example messages scored as positive (`compound > 0.5`), neutral (`-0.5 <= compound <= 0.5`) and negative (`compound < -0.5`):
 
-<img src='images/pos.png' width='500' height='250'>
+<img src='images/pos.png' width='500' height='260'>
 
-<img src='images/neu.png' width='500' height='220'>
+<img src='images/neu.png' width='500' height='250'>
 
-<img src='images/neg.png' width='500' height='210'>
+<img src='images/neg.png' width='500' height='230'>
 
 We can see that `VADER` generally correctly scored the sentiment polarity of email messages, though there are some surprising mistakes, such as `no problem` being scored as negative. Overall, on the Enron dataset, `VADER` performed best on neutral emails. 
 
