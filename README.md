@@ -78,7 +78,7 @@ As already mentioned, the parameters for DBSCAN clustering were selected based o
 
 <img src='images/ex_direct.png' width='500' height='100'>
 
-2. `Updates and miscellaneous commentary`: This group was actually the ‘noise’ group consisting of emails DBSCAN could not cluster
+2. `Updates and miscellaneous commentary`: This group was actually the 'noise' group consisting of emails DBSCAN could not cluster
 
 <img src='images/ex_miscellaneous.png' width='500' height='250'>
 
