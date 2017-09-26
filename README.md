@@ -2,7 +2,7 @@
 
 **Introduction**
 
-During my time as an Insight Data Science Fellow, I consulted with [Cultivate](cultivateai.com), a SaaS business whose mission is to provide human resource (HR) departments with a better way to measure and evaluate employees. Prior to joining Insight, I received my Ph.D. from the Program in Neuroscience at Harvard. As I prepared for my transition to industry, I became fascinated by how large organizations manage and motivate employees so that teams can be most productive. I was therefore excited by the opportunity to work with Cultivate to learn about employee communications. Links to my slides can be found [here](https://docs.google.com/presentation/d/1dIz3TKviRqEQ2EHlwv7sysUNxA48TQ0JFhX-fYekRlc/edit#slide=id.g200332bda9_0_58) and my webapp can be found [here](http://viz.services).
+During my time as an Insight Data Science Fellow, I consulted with [Cultivate](https://cultivateai.com), a SaaS business whose mission is to provide human resource (HR) departments with a better way to measure and evaluate employees. Prior to joining Insight, I received my Ph.D. from the Program in Neuroscience at Harvard. As I prepared for my transition to industry, I became fascinated by how large organizations manage and motivate employees so that teams can be most productive. I was therefore excited by the opportunity to work with Cultivate to learn about employee communications. Links to my slides can be found [here](https://docs.google.com/presentation/d/1dIz3TKviRqEQ2EHlwv7sysUNxA48TQ0JFhX-fYekRlc/edit#slide=id.g200332bda9_0_58) and my webapp can be found [here](http://viz.services).
 
 **Problem formulation**
 
