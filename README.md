@@ -48,7 +48,11 @@ Below are example messages scored as positive (`compound > 0.5`), neutral (`-0.5
 
 <img src='images/neg.png' width='500' height='230'>
 
-We can see that `VADER` generally correctly scored the sentiment polarity of email messages, though there are some surprising mistakes, such as `no problem` being scored as negative. Overall, on the Enron dataset, `VADER` performed best on neutral emails. 
+We can see that `VADER` generally correctly scored the sentiment polarity of email messages, though there are some surprising mistakes, such as `no problem` being scored as negative. Overall, on the Enron dataset, `VADER` performed best on neutral emails. Note that the thresholds for determining positive, neutral and negative emails are somewhat arbitrary. For the examples above I used cutoffs that are common in the literature when performing sentiment analysis, but for actual analysis thresholds should be determined based on the client's data. For example, below is the distribution of sentiment scores in the Enron dataset:
+
+<img src='images/sentiments.png'>
+
+There is a large spike of neutral (`compound = 0`) emails consisting mainly of single phrase or sentence messages. If Enron were a Cultivate client, I would recommend any message with a score <0 be considered negative and anything >0 be considered positive for the company.
 
 Plotting the sentiments of email messages over time reveals that sentiments remained relatively stable across the two years represented in the dataset, with the mean hovering around a neutral-positive sentiment score. This is to be expected from a corporate environment where most messages will be centered around business discussions. The line of emails at 0 represents emails where the message was a single sentence or phrase (see the example neutral sentiment emails above).
 
