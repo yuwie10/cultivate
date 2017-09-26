@@ -114,7 +114,7 @@ As further qualitative validation, I looked at the distribution of the gender of
 
 Most clusters were dominated by male senders, and female senders were underrepresented in emails in the `Direct and to the point` and `Meetings and interviews` groups. As one might predict, female senders were extremely overrepresented in the `Company announcements` cluster, while `group` recipients were also overrepresented. Importantly, gender of sender and recipient were not included as a feature in my initial clustering to avoid problems of comparing continuous and categorical features. These results show DBSCAN can identify meaningful clusters within an email dataset and that men and women in Enron were sending different types of emails.  Using this analysis pipeline could allow HR to identify potential biases and differences amongst employees.
 
-It is worth noting that the results from clustering on the Enron dataset are likely skewed because five people in the dataset sent 4108, or 68% of all messages. My clustering analysis may therefore be identifying writing styles of individuals. For example, many personal emails were not captured in the ‘Casual and personal’ cluster, but the emails in that cluster were mainly from Eric Bass. 
+It is worth noting that the results from clustering on the Enron dataset are likely skewed because five people in the dataset sent 4108, or 68% of all messages. My clustering analysis may therefore be identifying writing styles of individuals. For example, many personal emails were not captured in the `Casual and personal` cluster, but the emails in that cluster were mainly from Eric Bass. 
 
 **A dashboard for Cultivate clients**
 
