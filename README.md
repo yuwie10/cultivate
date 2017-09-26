@@ -54,7 +54,7 @@ We can see that `VADER` generally correctly scored the sentiment polarity of ema
 
 There is a large spike of neutral (`compound = 0`) emails consisting mainly of single phrase or sentence messages. If Enron were a Cultivate client, I would recommend any message with `compound < 0` be considered negative and `compound > 0` be considered positive for the company.
 
-Plotting the sentiments of email messages over time reveals that sentiments remained relatively stable across the two years represented in the dataset, with the mean hovering around a neutral-positive sentiment score. This is to be expected from a corporate environment where most messages will be centered around business discussions. The line of emails at 0 represents emails where the message was a single sentence or phrase (see the example neutral sentiment emails above).
+Plotting the sentiments of email messages over time reveals that sentiments remained relatively stable across the two years represented in the dataset, with the mean hovering around a neutral-positive sentiment score. This is to be expected from a corporate environment where most messages will be centered around business discussions.
 
 <img src='images/sentiments-over-time.png' width='750' height='660'>
 
