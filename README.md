@@ -54,6 +54,7 @@ Plotting the sentiments of email messages over time reveals that sentiments rema
 <img src='images/sentiments-over-time.png' width='750' height='660'>
 (The gap in emails in the later quarters of 2001 represents the period prior to the Enron scandal becoming public and could be due to either individuals scrubbing their emails and/or the FBI not making those emails available due to their investigation.)
 
+
 For the purposes of identifying underlying relationships, what individuals are discussing is less salient than how they are discussing that topic. Therefore, rather than perform topic modeling to group emails, I performed unsupervised clustering. I included the `VADER` sentiment scores and the number of recipients as features to distinguish email clusters with different sentiments and those sent to individuals versus groups. I also included various text elements such as sentence length, total word count, number of questions, etc., to measure writing style. I used Python’s `nltk` and `spacy` packages for sentence and word tokenizations, part of speech tagging and other text processing. All together these features resulted in an approximately 30-dimensional feature vector.
 
 *Choosing an algorithm*
