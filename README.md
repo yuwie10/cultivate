@@ -103,6 +103,7 @@ Although the majority of emails are in two large, indistinct clusters, more dist
 Examining the distribution of sentiments within each cluster, it is clear sentiments within the most business-oriented clusters (numbers 1, 2 and 3 from the list above) were close to the company’s overall mean sentiment and were relatively neutral, as expected. Unsurprisingly, `Casual and personal` emails, on the other hand, had more positive sentiment scores relative to the mean.
 
 <img src='images/sentiment-per-cluster.png'>
+
 (Numbers indicate the number of emails per cluster.)
 
 As further qualitative validation, I looked at the distribution of the gender of email senders and recipients within each cluster relative to the distribution of gender within the whole company. Information about gender is not explicitly encoded in the Enron dataset, so I used Python’s `gender_guesser` package to estimate gender from the sender’s or recipient’s first name (in reality, of course, HR would have all this information). If there was more than one recipient, I scored the gender as `group`. For androgynous names, `gender_guesser` scores the name as `mostly_female`, `mostly_male` or `andy` (if the split between male and females with that name is 50:50), while names not in `gender_guesser`'s corpus are scored as `unknown`. I combined `mostly_female` and `mostly_male` names with their respective genders and dropped `andy` names, as fewer than 1% of names fell into these categories.
