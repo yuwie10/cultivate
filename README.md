@@ -122,10 +122,6 @@ Examining the distribution of sentiments within each cluster, it is clear sentim
 
 (Numbers indicate the number of emails per cluster.)
 
-Plotting sentiments per cluster over time shows that sentiments in the business-oriented clusters were generally very stable. There was greater variability in the other clusters, though this is to be expected given the smaller sample size of these groups.
-
-<img src='images/cluster-sentiments-time.png'>
-
 ## A dashboard for Cultivate clients
 
 As Cultivate is a SaaS business, any results must ultimately be delivered to client companies in an easily interpretable form for those without much analytics experience. I therefore synthesized the results from my analysis of the Enron emails into a dashboard prototype that Cultivate’s clients could use to visualize digital communications over time, which can be found [here](http://viz.services). The landing page displays the company's sentiments over time and email types so that  a holistic view of the company can be gained. At the bottom a user can ideally select teams or departments to identify how a group's communications are evolving over time. As I did not have access to this information, for the dashboard prototype I included a sample of individuals from the Enron dataset. Recipients can also be specified so that the relationships between individuals can be visualized.
