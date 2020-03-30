@@ -5,7 +5,7 @@ attrs==17.2.0
 Automat==0.6.0
 beautifulsoup4==4.6.0
 binaryornot==0.4.4
-bleach==2.0.0
+bleach==3.1.4
 boto==2.48.0
 bs4==0.0.1
 bz2file==0.98
