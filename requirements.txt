@@ -61,7 +61,7 @@ jupyter==1.0.0
 jupyter-client==5.1.0
 jupyter-console==5.2.0
 jupyter-core==4.3.0
-jupyterlab==0.27.0
+jupyterlab==1.2.21
 jupyterlab-launcher==0.4.0
 jupyternotify==0.1.9
 lime==0.1.1.23
