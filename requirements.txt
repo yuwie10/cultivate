@@ -44,7 +44,7 @@ idna==2.6
 ijson==2.3
 incremental==17.5.0
 ipykernel==4.6.1
-ipython==6.1.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 ipywidgets==7.0.0
 isodate==0.5.4
