@@ -143,7 +143,7 @@ toolz==0.8.2
 tornado==4.5.1
 tqdm==4.15.0
 traitlets==4.3.2
-Twisted==17.5.0
+Twisted==22.4.0
 ujson==1.35
 unicodecsv==0.14.1
 urllib3==1.22
