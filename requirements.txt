@@ -17,7 +17,7 @@ click==6.7
 cloudpickle==0.4.0
 configparser==3.5.0
 constantly==15.1.0
-cookiecutter==1.5.1
+cookiecutter==2.1.1
 cryptography==2.0.3
 cssselect==1.0.1
 cycler==0.10.0
