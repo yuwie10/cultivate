@@ -79,7 +79,7 @@ neo4jrestclient==2.1.1
 nltk==3.2.4
 notebook==5.0.0
 numexpr==2.6.2
-numpy==1.13.1
+numpy==1.22.0
 openpyxl==2.4.8
 pandas==0.20.3
 pandocfilters==1.4.2
