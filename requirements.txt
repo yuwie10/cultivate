@@ -72,7 +72,7 @@ matplotlib==2.0.2
 mistune==0.7.4
 mongo-connector==2.5.1
 murmurhash==0.26.4
-nbconvert==5.2.1
+nbconvert==6.5.1
 nbformat==4.4.0
 neo4j-doc-manager==1.0.0.dev11
 neo4jrestclient==2.1.1
